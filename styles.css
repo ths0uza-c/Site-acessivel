@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-:root {
-    --laranja-claro: #FF862A;
-}
-
-body {
-    font-size: 1rem;
-    font-family: 'Montserrat';
-}
-
-header {
-    background-color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+3
+4 :root {
+5 --laranja-claro: #FFB62A;
+6 --alto-contraste-fundo: #000000;
+7 --alto-contraste-texto: #ffffff;
+8 --alto-contraste-link: #ff7000;
+9 }
+10
+11 body {
+12 font-size: 1rem;
+13 font-family: 'Montserrat';
 }
 
 
@@ -141,3 +142,28 @@ h2 {
     background-color: #F1EDEF;
 }
 
+.menu-acessibilidade {
+position: fixed;
+top: 2rem;
+right: 20px;
+z-index: 1000;
+ }
+
+.rotacao-botao {
+ transform: rotate(-90deg);
+transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+margin-top: 10px;
+ display: flex;
+flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+margin-bottom: 5px;
+}
+165
+ .apresenta-lista {
+display: none;
+}
